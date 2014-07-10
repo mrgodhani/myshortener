@@ -37,9 +37,10 @@
 <body>
 <div class="container">
     <div class="welcome">
-        <h1>Coming Soon ....</h1>
+        <h1 class="text-center">Coming Soon ....</h1>
         <br/>
-        <p style="text-center"><a href="https://www.digitalocean.com/?refcode=58c511514217" title="Digital Ocean"><img class="img-responsive" width="150" src="/images/digitalocean.png" alt="Proudly hosted by Digital Ocean"></a></p>
+        <br/>
+        <p style="text-center"><a href="https://www.digitalocean.com/?refcode=58c511514217" title="Digital Ocean"><img class="img-responsive center-block" width="150" src="/images/digitalocean.png" alt="Proudly hosted by Digital Ocean"></a></p>
     </div>
 </div>
 </body>
