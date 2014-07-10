@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Laravel PHP Framework</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Celertron</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<style>
 		@import url(//fonts.googleapis.com/css?family=Lato:700);
