@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Laravel PHP Framework</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<style>
 		@import url(//fonts.googleapis.com/css?family=Lato:700);
 
@@ -34,9 +35,12 @@
 	</style>
 </head>
 <body>
-	<div class="welcome">
+<div class="container">
+    <div class="welcome">
         <h1>Coming Soon ....</h1>
-		<a href="https://www.digitalocean.com/?refcode=58c511514217" title="Digital Ocean"><img src="/images/digitalocean.png" alt="Proudly hosted by Digital Ocean"></a>
-	</div>
+        <br/>
+        <p style="text-center"><a href="https://www.digitalocean.com/?refcode=58c511514217" title="Digital Ocean"><img src="/images/digitalocean.png" alt="Proudly hosted by Digital Ocean"></a></p>
+    </div>
+</div>
 </body>
 </html>
