@@ -18,7 +18,7 @@ class CreateLocationTable extends Migration {
 			$table->increments('id');
             $table->string('latitude');
             $table->string('longitude');
-            $table->string('city');
+            $table->string('city')->default('UNKNOWN');
             $table->string('country');
             $table->string('ip');
 			$table->timestamps();
