@@ -11,7 +11,12 @@
 |
 */
 
+Route::group(['domain' => $_ENV['APP_DOMAIN']],function()
+{
+    Route::get('/',['as' => 'landingpage','uses' => 'LinksController@index']);
+});
 Route::get('/', function()
 {
 	return View::make('hello');
 });
+

@@ -4,7 +4,18 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+		"way/generators": "2.*",
+		"codeception/codeception": "*",
+		"guzzlehttp/guzzle": "~4.0",
+		"symfony/yaml": "2.5.@dev",
+		"league/fractal": "0.8.*",
+		"league/oauth1-client": "~1.0",
+		"doctrine/dbal": "2.5.*@dev",
+		"snowplow/referer-parser": "dev-master",
+		"artdarek/oauth-4-laravel": "dev-master",
+		"jenssegers/agent": "*",
+		"laracasts/utilities": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
@@ -32,5 +43,8 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+	"require-dev": {
+		"itsgoingd/clockwork": "dev-master"
+	}
 }

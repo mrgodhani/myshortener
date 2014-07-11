@@ -23,7 +23,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'myshortener',
+			'database'  => 'myshortener_testing',
 			'username'  => 'root',
 			'password'  => 'root',
 			'charset'   => 'utf8',

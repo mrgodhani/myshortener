@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'forge',
+			'database'  => 'shortenerapp',
 			'username'  => 'forge',
-			'password'  => '',
+			'password'  => 'vjEgXwJjrEfSzlm5VRUs',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
