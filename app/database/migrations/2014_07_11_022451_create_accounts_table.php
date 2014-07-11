@@ -14,6 +14,7 @@ class CreateAccountsTable extends Migration {
 	{
 		Schema::create('accounts', function(Blueprint $table)
 		{
+            $table->engine = 'InnoDB';
 			$table->increments('id');
             $table->string('token');
             $table->string('secret');

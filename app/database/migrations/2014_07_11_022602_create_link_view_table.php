@@ -14,6 +14,7 @@ class CreateLinkViewTable extends Migration {
 	{
 		Schema::create('link_view', function(Blueprint $table)
 		{
+            $table->engine = 'InnoDB';
 			$table->increments('id');
             $table->string('session_id');
             $table->integer('shortlink_id')->unsigned()->index();

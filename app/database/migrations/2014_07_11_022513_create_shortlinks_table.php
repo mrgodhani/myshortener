@@ -14,6 +14,7 @@ class CreateShortlinksTable extends Migration {
 	{
 		Schema::create('shortlinks', function(Blueprint $table)
 		{
+            $table->engine = 'InnoDB';
 			$table->increments('id');
             $table->string('url');
             $table->string('pagetitle');

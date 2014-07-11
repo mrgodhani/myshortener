@@ -14,6 +14,7 @@ class CreateLocationShortlinkTable extends Migration {
 	{
 		Schema::create('location_shortlink', function(Blueprint $table)
 		{
+            $table->engine = 'InnoDB';
 			$table->increments('id');
 			$table->integer('location_id')->unsigned()->index();
 			$table->foreign('location_id')->references('id')->on('locations')->onDelete('cascade');

@@ -14,6 +14,7 @@ class CreateRefererShortlinkTable extends Migration {
 	{
 		Schema::create('referer_shortlink', function(Blueprint $table)
 		{
+            $table->engine = 'InnoDB';
 			$table->increments('id');
 			$table->integer('referer_id')->unsigned()->index();
 			$table->foreign('referer_id')->references('id')->on('referers')->onDelete('cascade');

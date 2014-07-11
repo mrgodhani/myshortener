@@ -14,6 +14,7 @@ class CreateReferersTable extends Migration {
 	{
 		Schema::create('referers', function(Blueprint $table)
 		{
+            $table->engine = 'InnoDB';
 			$table->increments('id');
             $table->string('source');
 			$table->timestamps();
