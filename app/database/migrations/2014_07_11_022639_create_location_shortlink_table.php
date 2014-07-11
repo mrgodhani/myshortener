@@ -17,7 +17,7 @@ class CreateLocationShortlinkTable extends Migration {
             $table->engine = 'InnoDB';
 			$table->increments('id');
 			$table->integer('location_id')->unsigned()->index();
-			$table->foreign('location_id')->references('id')->on('locations')->onDelete('cascade');
+			$table->foreign('location_id')->references('id')->on('location')->onDelete('cascade');
 			$table->integer('shortlink_id')->unsigned()->index();
 			$table->foreign('shortlink_id')->references('id')->on('shortlinks')->onDelete('cascade');
 			$table->timestamps();

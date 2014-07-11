@@ -13,6 +13,7 @@ class CreateSessionTable extends Migration {
 	{
 		Schema::create('sessions', function($t)
 		{
+            $table->engine = 'InnoDB';
 			$t->string('id')->unique();
 			$t->text('payload');
 			$t->integer('last_activity');

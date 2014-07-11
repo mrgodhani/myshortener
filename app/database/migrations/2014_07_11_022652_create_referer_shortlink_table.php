@@ -17,7 +17,7 @@ class CreateRefererShortlinkTable extends Migration {
             $table->engine = 'InnoDB';
 			$table->increments('id');
 			$table->integer('referer_id')->unsigned()->index();
-			$table->foreign('referer_id')->references('id')->on('referers')->onDelete('cascade');
+			$table->foreign('referer_id')->references('id')->on('referer')->onDelete('cascade');
 			$table->integer('shortlink_id')->unsigned()->index();
 			$table->foreign('shortlink_id')->references('id')->on('shortlinks')->onDelete('cascade');
 			$table->timestamps();
